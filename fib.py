@@ -13,6 +13,11 @@ def fib_recursion(n):
     It uses for loop to calculate it.
     '''
 
+def fib_generator(n):
+    '''
+    Generator version of fibonacci.
+    '''
 
 print(fib_loop(8))
 print(fib_recursion(13))
+print([i for i in fib_generator(14)])
